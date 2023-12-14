@@ -152,6 +152,7 @@ grpc_cc_library(
         "absl/types:variant",
     ],
     language = "c++",
+    visibility = ["@grpc:useful"],
     deps = ["//:gpr_platform"],
 )
 
