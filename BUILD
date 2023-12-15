@@ -2712,7 +2712,7 @@ grpc_cc_library(
         "absl/strings:str_format",
     ],
     tags = ["nofixdeps"],
-    visibility = ["@grpc:iomgr_timer"],
+    visibility = ["//visibility:private"],
     deps = [
         "event_engine_base_hdrs",
         "exec_ctx",
